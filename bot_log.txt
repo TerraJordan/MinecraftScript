@@ -1,0 +1,167 @@
+[2026-09-20 17:38:46 МСК] САМОПРОВЕРКА:
+✅ Окно Minecraft: Найдено окно с заголовком 'Minecraft'.
+❌ Шаблон template.png: Файл не найден.
+✅ Сценарий scenario_chat.json: Валиден, шагов: 0.
+✅ Сценарий scenario_movement.json: Валиден, шагов: 4.
+✅ settings.json: Хоткей: ъ; расписание: {'mode': 'fixed_minute', 'value': 29}; проверка: both.
+✅ Игровой лог latest.log: Найден и читается: C:\Users\Господин\AppData\Roaming\.vimeworld\minigames_new_anticheat\logs\latest.log
+✅ Триггеры лога: Задано: 1 (группа найдена).
+✅ Библиотеки: Все необходимые библиотеки импортируются успешно.
+[2026-09-20 17:38:46 МСК] САМОПРОВЕРКА:
+✅ Окно Minecraft: Найдено окно с заголовком 'Minecraft'.
+❌ Шаблон template.png: Файл не найден.
+✅ Сценарий scenario_chat.json: Валиден, шагов: 0.
+✅ Сценарий scenario_movement.json: Валиден, шагов: 4.
+✅ settings.json: Хоткей: ъ; расписание: {'mode': 'fixed_minute', 'value': 29}; проверка: both.
+✅ Игровой лог latest.log: Найден и читается: C:\Users\Господин\AppData\Roaming\.vimeworld\minigames_new_anticheat\logs\latest.log
+✅ Триггеры лога: Задано: 1 (группа найдена).
+✅ Библиотеки: Все необходимые библиотеки импортируются успешно.
+[2026-09-20 17:39:00 МСК] САМОПРОВЕРКА:
+✅ Окно Minecraft: Найдено окно с заголовком 'Minecraft'.
+❌ Шаблон template.png: Файл не найден.
+✅ Сценарий scenario_chat.json: Валиден, шагов: 0.
+✅ Сценарий scenario_movement.json: Валиден, шагов: 4.
+✅ settings.json: Хоткей: ъ; расписание: {'mode': 'fixed_minute', 'value': 29}; проверка: both.
+✅ Игровой лог latest.log: Найден и читается: C:\Users\Господин\AppData\Roaming\.vimeworld\minigames_new_anticheat\logs\latest.log
+✅ Триггеры лога: Задано: 1 (группа найдена).
+✅ Библиотеки: Все необходимые библиотеки импортируются успешно.
+[2026-09-20 18:47:53 МСК] САМОПРОВЕРКА:
+✅ Окно Minecraft: Найдено окно с заголовком 'Minecraft'.
+✅ Шаблон template.png: Прочитан, размер 404x118px.
+✅ Сценарий scenario_chat.json: Валиден, шагов: 0.
+✅ Сценарий scenario_movement.json: Валиден, шагов: 4.
+✅ settings.json: Хоткей: ъ; расписание: {'mode': 'fixed_minute', 'value': 29}; проверка: both.
+✅ Игровой лог latest.log: Найден и читается: C:\Users\Господин\AppData\Roaming\.vimeworld\minigames_new_anticheat\logs\latest.log
+✅ Триггеры лога: Задано: 1 (группа найдена).
+✅ Библиотеки: Все необходимые библиотеки импортируются успешно.
+[2026-09-20 18:48:05 МСК] АУДИТ ПРОЕКТА:
+АУДИТ ПРОЕКТА
+
+• Неиспользуемые файлы: 4
+   requirements.txt — имя файла не встречается в коде
+   test_scenario_selection.py — модуль никто не импортирует
+   test_scenarios.py — модуль никто не импортирует
+   test_schedule.py — модуль никто не импортирует
+
+• Битые JSON: 0
+
+• Битые изображения: 0
+
+• Недостающие импорты: 0
+
+Критичные файлы защищены и не предлагаются к удалению.
+[2026-09-20 20:27:58 МСК] САМОПРОВЕРКА:
+✅ Окно Minecraft: Найдено окно с заголовком 'Minecraft'.
+✅ Шаблон template.png: Прочитан, размер 404x118px.
+✅ Сценарий scenario_chat.json: Валиден, шагов: 0.
+✅ Сценарий scenario_movement.json: Валиден, шагов: 4.
+✅ settings.json: Хоткей: ъ; расписание: {'mode': 'fixed_minute', 'value': 29}; проверка: both.
+✅ Игровой лог latest.log: Найден и читается: C:\Users\Господин\AppData\Roaming\.vimeworld\minigames_new_anticheat\logs\latest.log
+✅ Триггеры лога: Задано: 1 (группа найдена).
+✅ Библиотеки: Все необходимые библиотеки импортируются успешно.
+[2026-09-20 20:28:01 МСК] АУДИТ ПРОЕКТА:
+АУДИТ ПРОЕКТА
+
+• Неиспользуемые файлы: 1
+   requirements.txt — имя файла не встречается в коде
+
+• Битые JSON: 0
+
+• Битые изображения: 0
+
+• Недостающие импорты: 0
+
+Критичные файлы защищены и не предлагаются к удалению.
+[2026-09-20 20:28:34 МСК] БОТ ЗАПУЩЕН (из GUI), PID 25112.
+[2026-09-20 20:29:03 МСК] ПРОПУСК: окно Minecraft не найдено.
+[2026-09-20 20:29:35 МСК] СОБЫТИЕ: Открыто подземелье: Лёгкое.
+[2026-09-20 20:29:49 МСК] БОТ ОСТАНОВЛЕН (из GUI).
+[2026-09-21 00:58:43 МСК] БОТ ЗАПУЩЕН (из GUI), PID 16024.
+[2026-09-21 00:58:48 МСК] БОТ ОСТАНОВЛЕН (из GUI).
+[2026-09-21 02:37:55 МСК] БОТ ЗАПУЩЕН (из GUI), PID 14652.
+[2026-09-21 02:37:57 МСК] БОТ ОСТАНОВЛЕН (из GUI).
+[2026-09-21 03:06:31 МСК] БОТ ЗАПУЩЕН (из GUI), PID 22940.
+[2026-09-21 03:06:32 МСК] БОТ ОСТАНОВЛЕН (из GUI).
+[2026-09-21 03:06:34 МСК] БОТ ЗАПУЩЕН (из GUI), PID 5680.
+[2026-09-21 03:06:35 МСК] БОТ ОСТАНОВЛЕН (из GUI).
+[2026-09-21 03:07:02 МСК] БОТ ЗАПУЩЕН (из GUI), PID 2504.
+[2026-09-21 03:10:02 МСК] СОБЫТИЕ: Открыто подземелье: Сложное.
+[2026-09-21 03:15:02 МСК] СОБЫТИЕ: Открыто подземелье: Среднее.
+[2026-09-21 03:27:11 МСК] ОШИБКА ЗАПУСКА БОТА (код 1): Traceback (most recent call last):
+  File "K:\Project\Script1\bot.py", line 530, in <module>
+    main()
+  File "K:\Project\Script1\bot.py", line 518, in main
+    acceptor.process()
+  File "K:\Project\Script1\party_acceptor.py", line 225, in process
+    ok = self._try_accept(job)
+         ^^^^^^^^^^^^^^^^
+AttributeError: 'PartyAcceptor' object has no attribute '_try_accept'
+[2026-09-21 03:56:58 МСК] БОТ ЗАПУЩЕН (из GUI), PID 23912.
+[2026-09-21 04:00:03 МСК] СОБЫТИЕ: Открыто подземелье: Лёгкое.
+[2026-09-21 04:00:03 МСК] СОБЫТИЕ: Дикий рейд открыт: Искаженное зазеркалье.
+[2026-09-21 04:00:03 МСК] СОБЫТИЕ: Дикий рейд открыт: Джунгли руин.
+[2026-09-21 04:00:03 МСК] СОБЫТИЕ: Дикий рейд открыт: Поле Турниров.
+[2026-09-21 04:10:04 МСК] СОБЫТИЕ: Открыто подземелье: Сложное.
+[2026-09-21 04:15:05 МСК] СОБЫТИЕ: Открыто подземелье: Среднее.
+[2026-09-21 04:20:05 МСК] СОБЫТИЕ: Дикий рейд открыт: Морозные холмы.
+[2026-09-21 04:20:05 МСК] СОБЫТИЕ: Дикий рейд открыт: Логово Пугало.
+[2026-09-21 04:20:05 МСК] СОБЫТИЕ: Дикий рейд открыт: Мифические джунгли.
+[2026-09-21 04:25:15 МСК] ОШИБКА ЗАПУСКА БОТА (код 1): Traceback (most recent call last):
+  File "K:\Project\Script1\bot.py", line 530, in <module>
+    main()
+  File "K:\Project\Script1\bot.py", line 511, in main
+    execute_macro(current_settings, monitor)
+  File "K:\Project\Script1\bot.py", line 329, in execute_macro
+    if check_mode not in settings_module.VALID_CHECK_MODES:
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'settings' has no attribute 'VALID_CHECK_MODES'
+[2026-09-21 06:28:20 МСК] ОШИБКА ЗАПУСКА БОТА (код 1): Traceback (most recent call last):
+  File "K:\Project\Script1\bot.py", line 552, in <module>
+    main()
+  File "K:\Project\Script1\bot.py", line 501, in main
+    acceptor, event_scheduler = attach_event_pipeline(monitor, current_settings)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "K:\Project\Script1\bot.py", line 446, in attach_event_pipeline
+    party_checker=checker,   # <-- checker РґР»СЏ РїРѕРґС‚РІРµСЂР¶РґРµРЅРёСЏ
+                  ^^^^^^^
+NameError: name 'checker' is not defined
+[2026-09-21 06:47:27 МСК] БОТ ЗАПУЩЕН (из GUI), PID 25468.
+[2026-09-21 06:52:34 МСК] ОШИБКА ЗАПУСКА БОТА (код 1): Traceback (most recent call last):
+  File "K:\Project\Script1\bot.py", line 552, in <module>
+    main()
+  File "K:\Project\Script1\bot.py", line 533, in main
+    execute_macro(current_settings, monitor, acceptor, checker)
+  File "K:\Project\Script1\bot.py", line 337, in execute_macro
+    if check_mode not in settings_module.VALID_CHECK_MODES:
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'settings' has no attribute 'VALID_CHECK_MODES'
+[2026-09-21 07:17:56 МСК] САМОПРОВЕРКА:
+✅ Окно Minecraft: Найдено окно с заголовком 'Minecraft'.
+✅ Шаблон template.png: Прочитан, размер 404x118px.
+✅ Сценарий scenario_chat.json: Валиден, шагов: 0.
+✅ Сценарий scenario_movement.json: Валиден, шагов: 4.
+✅ settings.json: Хоткей: ъ; расписание: {'mode': 'fixed_minute', 'value': 52}; проверка: both.
+✅ Игровой лог latest.log: Найден и читается: C:\Users\Господин\AppData\Roaming\.vimeworld\minigames_new_anticheat\logs\latest.log
+✅ Триггеры лога: Задано: 1 (группа найдена).
+✅ Библиотеки: Все необходимые библиотеки импортируются успешно.
+[2026-09-21 07:18:00 МСК] АУДИТ ПРОЕКТА:
+АУДИТ ПРОЕКТА
+
+• Неиспользуемые файлы: 1
+   requirements.txt — имя файла не встречается в коде
+
+• Битые JSON: 0
+
+• Битые изображения: 0
+
+• Недостающие импорты: 0
+
+Критичные файлы защищены и не предлагаются к удалению.
+[2026-09-21 08:12:04 МСК] БОТ ЗАПУЩЕН (из GUI), PID 24436.
+[2026-09-21 08:12:08 МСК] БОТ ОСТАНОВЛЕН (из GUI).
+[2026-09-21 16:50:40 МСК] БОТ ЗАПУЩЕН (из GUI), PID 8608.
+[2026-09-21 16:52:04 МСК] ПРОПУСК: окно Minecraft не найдено.
+[2026-09-21 16:53:11 МСК] ПОИСК: сообщение 1/6: 'Ищу пачку на КП S+'
+[2026-09-21 16:53:49 МСК] ПОИСК: сообщение 2/6: 'Ищу пачку на КП S+'
+[2026-09-21 16:54:29 МСК] ПОИСК: сообщение 3/6: 'Дайте инвайт в пачку на КП S+'
+[2026-09-21 16:54:40 МСК] БОТ ОСТАНОВЛЕН (из GUI).

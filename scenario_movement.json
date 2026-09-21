@@ -1,0 +1,25 @@
+{
+  "chat_fallback_message": "hello",
+  "steps": [
+    {
+      "type": "key_hold",
+      "key": "w",
+      "duration_ms": 1000
+    },
+    {
+      "type": "key_hold",
+      "key": "d",
+      "duration_ms": 500
+    },
+    {
+      "type": "mouse_click",
+      "x": 200,
+      "y": 300
+    },
+    {
+      "type": "mouse_click",
+      "x": 450,
+      "y": 500
+    }
+  ]
+}

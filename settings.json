@@ -1,0 +1,84 @@
+{
+  "hotkey": "ъ",
+  "schedule": {
+    "mode": "fixed_minute",
+    "value": 53
+  },
+  "check_mode": "both",
+  "game_log_path": "",
+  "log_triggers": [
+    "группа найдена"
+  ],
+  "party_search_messages": [
+    "Ищу пачку на КП S+",
+    "Киньте приглос на КП S+",
+    "Дайте инвайт в пачку на КП S+"
+  ],
+  "message_repeat_count": 2,
+  "message_interval": {
+    "min": 30,
+    "max": 40
+  },
+  "max_search_messages": 6,
+  "auto_accept_party": true,
+  "party_accept_method": "log_chat",
+  "log_monitoring_enabled": true,
+  "log_file_path": "%APPDATA%\\.vimeworld\\minigames_new_anticheat\\logs\\latest.log",
+  "log_monitor": {
+    "enabled": true,
+    "path": "",
+    "patterns": {
+      "party_invite": "Игрок (?P<player>\\S+) приглашает вас в свою группу",
+      "party_join_command": "/party join (?P<player>\\S+)",
+      "party_list_response_no": "Вы не состоите в группе",
+      "party_list_response_yes": "Игроки \\(\\d+\\):",
+      "dungeon_easy": "Открыто Легкое подземелье",
+      "dungeon_medium": "Открыто Среднее подземелье",
+      "dungeon_hard": "Открыто Сложное подземелье",
+      "wild_raid": "Открыт Дикий Рейд на локации (?P<location>.+?)\\s*$"
+    },
+    "events": {
+      "party_invite": true,
+      "dungeons": true,
+      "wild_raid": true
+    }
+  },
+  "party_acceptor": {
+    "enabled": true,
+    "method": "log_chat",
+    "timeout_seconds": 60,
+    "queue_enabled": true,
+    "own_nickname": "M_i_X_A_228"
+  },
+  "scheduler": {
+    "enabled": true,
+    "warn_minutes_before": 1,
+    "events": {
+      "secret_easy": true,
+      "jeju": true,
+      "dslp": true
+    }
+  },
+  "notifications": {
+    "enabled": true,
+    "on_party_invite": true,
+    "on_party_accept": true,
+    "on_party_search_start": true,
+    "on_dungeon_open": true,
+    "on_raid_open": true,
+    "on_bot_start": true,
+    "on_bot_stop": true,
+    "on_scenario_success": true,
+    "on_scenario_failure": true,
+    "on_diagnostics": true,
+    "on_schedule_event": true,
+    "on_party_accepted": true,
+    "on_dungeon_easy": true,
+    "on_dungeon_medium": true,
+    "on_dungeon_hard": true,
+    "on_wild_raid": true
+  },
+  "window": {
+    "geometry": "880x839+1034+167"
+  }
+}
