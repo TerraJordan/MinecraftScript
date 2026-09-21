@@ -58,7 +58,7 @@ DEFAULT_SETTINGS = {
     # --- v7: события вне логов ---
     "scheduler": {
         "enabled": True,
-        "warn_minutes_before": 1,
+        "warn_minutes_before": 5,
         "events": {"secret_easy": True, "jeju": True, "dslp": True},
     },
     # --- уведомления (ключи = notifier.EVENT_LABELS) ---

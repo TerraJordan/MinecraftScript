@@ -114,6 +114,10 @@ class PartyAcceptor:
         self.queue = deque()
         self._last_accept_at = 0.0
         self._just_accepted = False               # флаг для цикла поиска группы
+        # Защита от собственных команд: бот не реагирует на команды, которые сам отправил
+        self.confirmation_delay = (0.8, 1.5)      # пауза перед проверкой группы через /p list
+        self._recent_sent = deque()               # недавно отправленные команды
+        self._recent_sent_ttl = 15.0              # время жизни записей в секундах
 
     def update_config(self, enabled=None, method=None, timeout_seconds=None,
                       queue_enabled=None, own_nickname=None, party_checker=None):
@@ -159,6 +163,10 @@ class PartyAcceptor:
         if not command:
             self.log("Не удалось извлечь команду /party join из лога.")
             return
+        # Игнорируем команды, которые бот недавно отправил сам
+        if self._was_recently_sent(command):
+            self.log(f"[i] Пропуск собственной команды из лога: {command}")
+            return
         self._enqueue(InviteJob(player=player or "неизвестный",
                                 method="log_chat", command=command))
 
@@ -182,6 +190,7 @@ class PartyAcceptor:
         """Вычищает просроченные, принимает первое в очереди с паузой и повторами."""
         if not self.enabled:
             return
+        self._cleanup_recent_sent()
         now = time.monotonic()
         # вычищаем просроченные (приглашение действует 60 секунд)
         while self.queue and now - self.queue[0].received_at > self.timeout_seconds:
@@ -233,6 +242,9 @@ class PartyAcceptor:
         try:
             if job.method == "log_chat" and job.command:
                 self.send_command(job.command)
+                # Запоминаем отправленную команду для защиты от повторного срабатывания
+                now = time.monotonic()
+                self._recent_sent.append((now, job.command.lower().strip()))
                 return True
             if job.method == "opencv":
                 return bool(self.opencv_click())
@@ -240,4 +252,19 @@ class PartyAcceptor:
                 return _default_chat_click(self.focus_window)
         except Exception as e:
             self.log(f"Ошибка метода '{job.method}': {e}")
+        return False
+
+    def _cleanup_recent_sent(self):
+        """Удаляет устаревшие записи о недавно отправленных командах."""
+        now = time.monotonic()
+        while self._recent_sent and now - self._recent_sent[0][0] > self._recent_sent_ttl:
+            self._recent_sent.popleft()
+
+    def _was_recently_sent(self, command: str) -> bool:
+        """Проверяет, отправлял ли бот эту команду в последние _recent_sent_ttl секунд."""
+        cmd_lower = command.lower().strip()
+        now = time.monotonic()
+        for sent_at, sent_cmd in self._recent_sent:
+            if now - sent_at <= self._recent_sent_ttl and sent_cmd == cmd_lower:
+                return True
         return False
